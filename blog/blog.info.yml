@@ -1,0 +1,26 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+screenshot: screenshot.png
+name: 'blog'
+description: 'My Blog Theme'
+package: 'Bootstrap'
+
+
+regions:
+  header: 'Top Bar'
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - 'blog/global-css'
+  - 'blog/theme'
+

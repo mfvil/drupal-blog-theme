@@ -1,0 +1,11 @@
+global-css:
+  version: 1.0
+  css:
+    theme:
+      css/style.css: {}
+
+  fonts: 
+    css:
+      theme:
+        //fonts.googleapis.com/css?family=Merriweather:400,700i: { type: external }
+        css/style.css: {}

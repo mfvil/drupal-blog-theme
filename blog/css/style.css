@@ -1,0 +1,39 @@
+body{
+    font-family: Merriweather;
+    font-size: 13pt;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 2em;
+}
+
+
+h2{
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+
+p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/*Proper spacing and font size for various elements on node pages*/
+
+.input-group{     /* Search bar*/
+    width: 245px;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 1.35em; 
+}
+.field--label{
+    margin-top: 8px;
+}
+
+li> a {
+    font-size: 14pt;
+}
