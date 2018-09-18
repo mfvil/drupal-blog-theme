@@ -20,20 +20,36 @@ p{
     margin-bottom: 8px;
 }
 
-/*Proper spacing and font size for various elements on node pages*/
+li>a {
+    font-size: 14pt;
+}
 
-.input-group{     /* Search bar*/
+/* Search bar*/
+.input-group{     
     width: 245px;
 }
 
+/* navbar*/
 .navbar-brand{
     font-weight: 700;
     font-size: 1.35em; 
 }
-.field--label{
-    margin-top: 8px;
+
+.navbar-default {
+    border-radius: 0;
 }
 
-li> a {
-    font-size: 14pt;
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color:#337ab7;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color:#337ab7;
+}
+
+/*taxonomy tag labels on blog pages*/
+.field--label{
+    margin-top: 8px;
 }
