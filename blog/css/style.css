@@ -31,6 +31,7 @@ li>a {
     position: absolute;
 }
 
+/*Expandable search block field */
 .input-group input[type=search] {
     float: right;
    width: 150px; 
